@@ -1,0 +1,12 @@
+# Bahan referensi analisis (bukan bagian proyek, tidak di-push)
+sglang-wheel/
+Unlimited-OCR/
+hf-model-code/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Log dan output sementara
+*.log

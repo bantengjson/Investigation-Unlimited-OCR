@@ -1,0 +1,24 @@
+{
+  "file": "samples/paper.pdf",
+  "halaman": 1,
+  "kelompok": [
+    {
+      "kelompok": 1,
+      "halaman": 1,
+      "token_prompt": 909,
+      "token_keluar": 1960,
+      "detik": 112.9,
+      "tok_per_s": 17.8,
+      "selesai": "stop"
+    }
+  ],
+  "total_detik": 115.5,
+  "detik_per_halaman": 115.5,
+  "ram_puncak_gib": 7.34,
+  "cpu_persen_semua_core": 50.0,
+  "threads": 12,
+  "gambar_halaman": [
+    "/mnt/data/ai-projects/Unlimited-OCR/outputs/paper_hal10/page_0010.png"
+  ],
+  "dpi": 200
+}

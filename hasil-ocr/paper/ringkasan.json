@@ -1,0 +1,20 @@
+{
+  "file": "samples/paper.pdf",
+  "halaman": 3,
+  "kelompok": [
+    {
+      "kelompok": 1,
+      "halaman": 3,
+      "token_prompt": 827,
+      "token_keluar": 1685,
+      "detik": 93.9,
+      "tok_per_s": 18.5,
+      "selesai": "stop"
+    }
+  ],
+  "total_detik": 96.7,
+  "detik_per_halaman": 32.2,
+  "ram_puncak_gib": 7.41,
+  "cpu_persen_semua_core": 49.9,
+  "threads": 12
+}

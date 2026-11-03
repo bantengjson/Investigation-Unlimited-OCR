@@ -1,0 +1,20 @@
+{
+  "file": "samples/test_page.png",
+  "halaman": 1,
+  "kelompok": [
+    {
+      "kelompok": 1,
+      "halaman": 1,
+      "token_prompt": 909,
+      "token_keluar": 454,
+      "detik": 24.8,
+      "tok_per_s": 20.3,
+      "selesai": "stop"
+    }
+  ],
+  "total_detik": 27.3,
+  "detik_per_halaman": 27.3,
+  "ram_puncak_gib": 7.03,
+  "cpu_persen_semua_core": 49.8,
+  "threads": 12
+}

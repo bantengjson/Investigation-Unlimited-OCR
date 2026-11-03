@@ -1,0 +1,89 @@
+{
+  "test": "stress",
+  "mode": "base",
+  "stages": [
+    {
+      "pages": 1,
+      "prompt_tokens": 279,
+      "output_tokens": 495,
+      "total_s": 23.82,
+      "s_per_page": 23.82,
+      "finish": "stop",
+      "pages_out": 1,
+      "monitor": {
+        "elapsed_s": 23.88,
+        "rss_start_gib": 5.07,
+        "rss_peak_gib": 6.86,
+        "cpu_pct_of_one_core_avg": 1196.9,
+        "cpu_pct_of_all_cores_avg": 49.9,
+        "swap_used_peak_gib": 0.25
+      },
+      "sys": {
+        "ram_used_gib": 2.91,
+        "ram_avail_gib": 57.3,
+        "swap_used_gib": 0.25
+      }
+    },
+    {
+      "pages": 3,
+      "prompt_tokens": 827,
+      "output_tokens": 1685,
+      "total_s": 96.43,
+      "s_per_page": 32.14,
+      "finish": "stop",
+      "pages_out": 3,
+      "monitor": {
+        "elapsed_s": 96.59,
+        "rss_start_gib": 6.86,
+        "rss_peak_gib": 7.33,
+        "cpu_pct_of_one_core_avg": 1198.0,
+        "cpu_pct_of_all_cores_avg": 49.9,
+        "swap_used_peak_gib": 0.25
+      },
+      "sys": {
+        "ram_used_gib": 3.09,
+        "ram_avail_gib": 57.12,
+        "swap_used_gib": 0.25
+      }
+    },
+    {
+      "pages": 10,
+      "prompt_tokens": 2745,
+      "output_tokens": 8148,
+      "total_s": 1194.6,
+      "s_per_page": 119.46,
+      "finish": "stop",
+      "pages_out": 10,
+      "monitor": {
+        "elapsed_s": 1195.13,
+        "rss_start_gib": 7.15,
+        "rss_peak_gib": 8.61,
+        "cpu_pct_of_one_core_avg": 1199.5,
+        "cpu_pct_of_all_cores_avg": 50.0,
+        "swap_used_peak_gib": 0.25
+      },
+      "sys": {
+        "ram_used_gib": 4.5,
+        "ram_avail_gib": 55.71,
+        "swap_used_gib": 0.25
+      }
+    }
+  ],
+  "load": {
+    "elapsed_s": 1.39,
+    "rss_start_gib": 0.39,
+    "rss_peak_gib": 0.47,
+    "cpu_pct_of_one_core_avg": 99.2,
+    "cpu_pct_of_all_cores_avg": 4.1,
+    "swap_used_peak_gib": 0.25,
+    "threads": 12,
+    "params_B": 3.344,
+    "devices": [
+      "cpu"
+    ],
+    "dtypes": [
+      "torch.bfloat16"
+    ],
+    "attn_impl": "eager"
+  }
+}

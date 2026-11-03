@@ -1,0 +1,63 @@
+{
+  "test": "pdf",
+  "pdf": "samples/paper.pdf",
+  "pages": 3,
+  "dpi": 200,
+  "per_page_mode": true,
+  "results": [
+    {
+      "page": 1,
+      "prompt_tokens": 909,
+      "output_tokens": 511,
+      "total_s": 28.69,
+      "prefill_s": 2.54,
+      "finish": "stop"
+    },
+    {
+      "page": 2,
+      "prompt_tokens": 909,
+      "output_tokens": 819,
+      "total_s": 45.11,
+      "prefill_s": 2.45,
+      "finish": "stop"
+    },
+    {
+      "page": 3,
+      "prompt_tokens": 909,
+      "output_tokens": 898,
+      "total_s": 48.82,
+      "prefill_s": 2.42,
+      "finish": "stop"
+    }
+  ],
+  "monitor": {
+    "elapsed_s": 122.88,
+    "rss_start_gib": 5.15,
+    "rss_peak_gib": 7.51,
+    "cpu_pct_of_one_core_avg": 1196.4,
+    "cpu_pct_of_all_cores_avg": 49.9,
+    "swap_used_peak_gib": 0.25
+  },
+  "load": {
+    "elapsed_s": 1.42,
+    "rss_start_gib": 0.47,
+    "rss_peak_gib": 0.55,
+    "cpu_pct_of_one_core_avg": 99.9,
+    "cpu_pct_of_all_cores_avg": 4.2,
+    "swap_used_peak_gib": 0.25,
+    "threads": 12,
+    "params_B": 3.344,
+    "devices": [
+      "cpu"
+    ],
+    "dtypes": [
+      "torch.bfloat16"
+    ],
+    "attn_impl": "eager"
+  },
+  "sys_after": {
+    "ram_used_gib": 3.12,
+    "ram_avail_gib": 57.09,
+    "swap_used_gib": 0.25
+  }
+}

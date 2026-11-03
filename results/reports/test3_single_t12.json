@@ -1,0 +1,45 @@
+{
+  "test": "single_image",
+  "image": "samples/test_page.png",
+  "mode": "auto",
+  "threads": 12,
+  "prompt_tokens": 909,
+  "output_tokens": 454,
+  "finish_reason": "stop",
+  "pages_out": 1,
+  "prefill_s": 2.49,
+  "decode_s": 21.99,
+  "total_s": 24.48,
+  "decode_tok_per_s": 20.64,
+  "monitor": {
+    "elapsed_s": 24.55,
+    "rss_start_gib": 5.07,
+    "rss_peak_gib": 7.05,
+    "cpu_pct_of_one_core_avg": 1194.8,
+    "cpu_pct_of_all_cores_avg": 49.8,
+    "swap_used_peak_gib": 0.25
+  },
+  "load": {
+    "elapsed_s": 1.38,
+    "rss_start_gib": 0.39,
+    "rss_peak_gib": 0.47,
+    "cpu_pct_of_one_core_avg": 101.2,
+    "cpu_pct_of_all_cores_avg": 4.2,
+    "swap_used_peak_gib": 0.25,
+    "threads": 12,
+    "params_B": 3.344,
+    "devices": [
+      "cpu"
+    ],
+    "dtypes": [
+      "torch.bfloat16"
+    ],
+    "attn_impl": "eager"
+  },
+  "sys_after": {
+    "ram_used_gib": 3.15,
+    "ram_avail_gib": 57.06,
+    "swap_used_gib": 0.25
+  },
+  "similarity_to_gt": 0.9932
+}
